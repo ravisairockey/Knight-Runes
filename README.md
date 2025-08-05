@@ -1,57 +1,103 @@
-# Knight-Runes
+# ⚔️ Knight-Runes: Game Design Document ⚔️
 
-Welcome to the official repository for **Knight-Runes**, a mythical web experience that transports you to the enigmatic temple of Templum Arcamenis.
+---
 
-## About The Project
+## 1. Introduction & Vision
 
-This project is a visually rich, single-page website that tells the story of a mythical temple. It features a modern design, responsive layout, and engaging scroll animations to create an immersive user experience.
+**Knight-Runes** is an immersive web-based experience designed to serve as a living concept for a mythical action-adventure game. It showcases the world, narrative, and core aesthetic of the project through a single, beautifully designed webpage. Our vision is to create a sense of wonder and mystery, inviting users to step into the shattered dimension of Templum Arcamenis.
 
-### Key Features:
+> _"At the heart of a shattered dimension, a lone hero must navigate the trials of a divine temple to claim a relic of unimaginable power."_
 
-*   **Immersive Storytelling:** A captivating narrative about a mythical temple, its guardians, and a powerful relic.
-*   **Responsive Design:** The website is designed to look great on all devices, from desktops to mobile phones.
-*   **Scroll Animations:** Subtle animations that trigger on scroll to enhance the visual appeal.
-*   **Seamless Video Loop:** A looping video at the bottom of the page that showcases a cinematic render of the temple.
-*   **Modern Tech Stack:** Built with HTML5, CSS3, and modern JavaScript.
+---
 
-## Getting Started
+## 2. Story & Narrative
 
-To view the project, simply open the `index.html` file in your web browser.
+### 2.1. World Overview
 
-### Prerequisites
+The game is set in **Templum Arcamenis**, a revered temple of life and creation floating within a fractured, broken dimension. The world is a blend of high fantasy and cosmic horror, where reality is fragile and the very laws of nature are in flux.
 
-There are no special prerequisites to view this project. Any modern web browser will work.
+*   **Key Location:** Templum Arcamenis
+*   **Primary Material:** Crystanium, a mineral found only in shattered realms.
+*   **Atmosphere:** Ethereal, mysterious, and dangerous.
 
-## How To View
+### 2.2. Core Plot
 
-1.  Clone the repository:
+The player's quest is to find **Vithrania**, a crystalline orb with the power to reshape the universe. This relic is hidden deep within the temple, protected by divine guardians and reality-bending traps.
+
+### 2.3. Key Characters & Factions
+
+| Character/Faction     | Role/Description                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Vitraevor**         | The Almighty Shaper, the god of all creation who willed the temple into existence.                           |
+| **Lux Sentinels**     | Towering entities of light and shadow that serve as the temple's primary guardians.                          |
+| **The Player**        | A chosen one, an adventurer brave enough to face the trials of the temple.                                   |
+
+---
+
+## 3. Art & Aesthetics
+
+The visual style of Knight-Runes is a dark, mystical fantasy. The color palette is rich with deep blues, purples, and golds, creating a high-contrast, otherworldly feel.
+
+### 3.1. Visual Inspirations
+
+*   **Architecture:** Ancient, monolithic structures with a hexagonal design motif.
+*   **Lighting:** Ethereal, glowing vegetation and shimmering paths of light.
+*   **Color Palette:**
+    *   `#0a0a1a` (Primary Background)
+    *   `#f2a365` (Header & Gold Accents)
+    *   `#e94560` (Highlight & Danger)
+    *   `#88a0a8` (Subtle Tones)
+
+### 3.2. Cinematic Render
+
+A key feature of the showcase is a seamless video loop that provides a glimpse into the world of Knight-Runes.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ravisairockey/Knight-Runes/main/part1.mp4" alt="Gameplay Preview" width="0" height="0" />
+  <img src="https://raw.githubusercontent.com/ravisairockey/Knight-Runes/main/part2.mp4" alt="Gameplay Preview" width="0" height="0" />
+  <img src="https://raw.githubusercontent.com/ravisairockey/Knight-Runes/main/part3.mp4" alt="Gameplay Preview" width="0" height="0" />
+  *A cinematic preview of the temple is available at the bottom of the page.*
+</p>
+
+---
+
+## 4. Technical Showcase
+
+This project is built with modern web technologies to ensure a smooth and responsive experience.
+
+*   **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+*   **Animations:** [Animate On Scroll (AOS)](https://github.com/michalsnik/aos) library for engaging scroll effects.
+*   **Fonts:** Google Fonts (`Cinzel` for headers, `Lato` for body text).
+
+### 4.1. How to View
+
+1.  **Clone the repository:**
     ```sh
     git clone https://github.com/ravisairockey/Knight-Runes.git
     ```
-2.  Navigate to the project directory:
+2.  **Navigate to the project directory:**
     ```sh
     cd Knight-Runes
     ```
-3.  Open `index.html` in your browser.
+3.  **Open `index.html` in your browser.**
 
-## Contributing
+---
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## 5. Project Status & Roadmap
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+This project is currently in the **concept showcase** phase. The goal is to present the vision and gather feedback.
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+- [X] **Phase 1: Core Concept** - Develop the narrative and world-building.
+- [X] **Phase 2: Web Showcase** - Build the interactive webpage with animations and video.
+- [ ] **Phase 3: Prototyping** - (Future Goal) Develop a playable prototype with core mechanics.
+- [ ] **Phase 4: Full Development** - (Future Goal) Full game production.
 
-## License
+---
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## 6. Contributing
 
-## Contact
+We welcome contributions to this project! If you have ideas for improving the showcase or expanding the concept, please feel free to fork the repository and submit a pull request.
 
-Ravi Sai - [@ravisairockey](https://twitter.com/ravisairockey)
+## 7. License
 
-Project Link: [https://github.com/ravisairockey/Knight-Runes](https://github.com/ravisairockey/Knight-Runes)
+This project is licensed under the MIT License.

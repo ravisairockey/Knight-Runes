@@ -61,13 +61,17 @@ A key feature of the showcase is a seamless video loop that provides a glimpse i
 
 ---
 
-## 4. Technical Showcase
+## 4. Technologies Used
 
 This project is built with modern web technologies to ensure a smooth and responsive experience.
 
-*   **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-*   **Animations:** [Animate On Scroll (AOS)](https://github.com/michalsnik/aos) library for engaging scroll effects.
-*   **Fonts:** Google Fonts (`Cinzel` for headers, `Lato` for body text).
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/AOS-7763FA?style=for-the-badge&logo=aos&logoColor=white" alt="AOS"/>
+  <img src="https://img.shields.io/badge/Google%20Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" alt="Google Fonts"/>
+</p>
 
 ### 4.1. How to View
 

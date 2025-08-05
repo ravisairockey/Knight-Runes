@@ -170,10 +170,8 @@
         <hr class="divider" />
 
         <h2 data-aos="fade-up">Render</h2>
-        <video id="video-player" width="1920" height="1080" muted autoplay loop playsinline data-aos="zoom-in-up">
+        <video id="video-player" width="1920" height="1080" muted autoplay playsinline data-aos="zoom-in-up">
             <source src="part1.mp4" type="video/mp4">
-            <source src="part2.mp4" type="video/mp4">
-            <source src="part3.mp4" type="video/mp4">
         </video>
 
         <script>
@@ -181,11 +179,17 @@
             const videoSources = ['part1.mp4', 'part2.mp4', 'part3.mp4'];
             let currentVideoIndex = 0;
 
-            videoPlayer.addEventListener('ended', () => {
-                currentVideoIndex = (currentVideoIndex + 1) % videoSources.length;
+            videoPlayer.addEventListener('ended', playNextVideo);
+
+            function playNextVideo() {
+                currentVideoIndex++;
+                if (currentVideoIndex >= videoSources.length) {
+                    currentVideoIndex = 0; // Loop back to the first video
+                }
                 videoPlayer.src = videoSources[currentVideoIndex];
+                videoPlayer.load();
                 videoPlayer.play();
-            });
+            }
         </script>
 
         <footer>
